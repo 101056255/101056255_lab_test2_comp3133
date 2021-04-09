@@ -1,0 +1,4 @@
+<h1>Missions List</h1>
+<div *ngFor = "let item of array" style="background-color: black;">
+    <app-missionlist [data] = "item" (click) = "showDetails(item)"></app-missionlist>
+</div>
